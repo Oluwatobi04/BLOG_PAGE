@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400&display=swap');
+/* font-family: 'Sora', sans-serif; */
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* BODY */
+
+
+body {
+    border-radius: 5%;
+    padding: 16px 20px;
+}
+
+/* IMAGE TAG */
+/* .image {
+    max-width: 336px;
+    height: 152px;
+} */
+.image img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+/* button tag */
+button {
+    margin-top: 16px ;
+    background-color: #883ae1;
+    padding: 6px 16px;
+    border-radius: 35%;
+}
+
+button .design {
+    font-size: 0.625rem;
+    font-family: 'Sora', sans-serif;
+    font-weight: 200;
+}
+/* header tag */
+.header {
+    margin-top:  16px;
+}
+
+.header h1 { 
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.paragraph {
+    margin-top: 6px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 200;
+    width: 80%;
+    font-size: 0.875rem;
+}
+
+.empty {
+    margin-top: 20px;
+    border: none;
+    border-top: 2px dotted black;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+  }
+
+.end {
+    margin-top:  20px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 200;
+    margin-bottom: 20px;
+    font-size: 0.75rem;
+
+  }
+
+  @media screen and (max-width: 566px) {
+    .header h1 {
+        font-size: 0.8rem ;
+    }
+  }
