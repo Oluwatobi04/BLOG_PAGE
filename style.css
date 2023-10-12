@@ -7,11 +7,16 @@
     box-sizing: border-box;
 }
 /* BODY */
-
-
-body {
+.main {
+    
+    background-color: rgb(238, 233, 233);
     border-radius: 5%;
     padding: 16px 20px;
+}
+
+body {
+    padding: 168px;
+   
 }
 
 /* IMAGE TAG */
@@ -76,7 +81,26 @@ button .design {
   }
 
   @media screen and (max-width: 566px) {
+    /* body {
+        padding:  50px;
+    } */
     .header h1 {
         font-size: 0.8rem ;
+        margin-top: 0px;
     }
+    .image img {
+        max-width: 286.83px;
+   }
+   .paragraph {
+    font-size: 8px;
+    width: 100%;
+   }
+   button {
+    margin-top: 5px;
+    padding: 0;
+   }
   }
+  @media screen and (max-width: 474px) {
+    body {
+        padding:  50px;
+    }}
